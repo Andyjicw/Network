@@ -37,10 +37,10 @@
     [POST withUrl:TEST_URL
              body:body
           success:^(id result) {
-              //
+              // success to do
           }
           failure:^(NSError *error) {
-              //
+              // failure to do
           }];
 }
 
@@ -49,10 +49,10 @@
 - (void) testGET {
     [GET withUrl:TEST_URL
          success:^(id result) {
-             //
+             // success to do
          }
          failure:^(NSError *error) {
-             //
+             // failure to do
          }];
 }
 
