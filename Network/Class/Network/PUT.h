@@ -1,15 +1,15 @@
 //
-//  ViewController.h
+//  PUT.h
 //  Network
 //
 //  Author Andyjicw 479003573@qq.com
 //
-//  Created by andy on 16/6/8.
+//  Created by andy on 16/6/21.
 //  Copyright © 2016年 andy. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
+@interface PUT : NSObject
 
 @end

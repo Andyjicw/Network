@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A182A3FF1D19372300F25DD6 /* PUT.m in Sources */ = {isa = PBXBuildFile; fileRef = A182A3FE1D19372300F25DD6 /* PUT.m */; };
 		A1B306BD1D07BB0B00DE6747 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B306B61D07BB0B00DE6747 /* ViewController.m */; };
 		A1B306C41D07BC4000DE6747 /* POST.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B306C31D07BC4000DE6747 /* POST.m */; };
 		A1B306C71D07C00500DE6747 /* GET.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B306C61D07C00500DE6747 /* GET.m */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A182A3FD1D19372300F25DD6 /* PUT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUT.h; sourceTree = "<group>"; };
+		A182A3FE1D19372300F25DD6 /* PUT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUT.m; sourceTree = "<group>"; };
 		A1B3068E1D07BA6200DE6747 /* Network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Network.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B306B51D07BB0B00DE6747 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A1B306B61D07BB0B00DE6747 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				A1B306C31D07BC4000DE6747 /* POST.m */,
 				A1B306C51D07C00500DE6747 /* GET.h */,
 				A1B306C61D07C00500DE6747 /* GET.m */,
+				A182A3FD1D19372300F25DD6 /* PUT.h */,
+				A182A3FE1D19372300F25DD6 /* PUT.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 				A1B306DA1D07CD6500DE6747 /* main.m in Sources */,
 				A1B306D51D07CD6500DE6747 /* AppDelegate.m in Sources */,
 				A1B306C71D07C00500DE6747 /* GET.m in Sources */,
+				A182A3FF1D19372300F25DD6 /* PUT.m in Sources */,
 				A1B306BD1D07BB0B00DE6747 /* ViewController.m in Sources */,
 				A1B306C41D07BC4000DE6747 /* POST.m in Sources */,
 			);
@@ -348,6 +354,7 @@
 				A1B306A71D07BA6200DE6747 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

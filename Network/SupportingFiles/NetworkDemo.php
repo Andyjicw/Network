@@ -1,3 +1,4 @@
+//Author Andyjicw 479003573@qq.com
 <?php
 if(isset($_SERVER["REQUEST_METHOD"])){	
 	if ($_SERVER["REQUEST_METHOD"] == "POST") {
