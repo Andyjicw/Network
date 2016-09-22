@@ -12,10 +12,10 @@
 
 @implementation POST
 
-+ (void) withUrl:(NSString *)url
-            body:(NSMutableDictionary *)body
-         success:(SuccessBlock)success
-         failure:(FailureBlock)failure {
++ (void)withUrl:(NSString *)url
+           body:(NSMutableDictionary *)body
+        success:(SuccessBlock)success
+        failure:(FailureBlock)failure {
     
     [POST withUrl:url
              body:body
@@ -28,11 +28,11 @@
           }];
 }
 
-+ (void) withUrl:(NSString *)url
-            body:(NSMutableDictionary *)body
-            head:(NSMutableDictionary *)head
-         success:(SuccessBlock)success
-         failure:(FailureBlock)failure {
++ (void)withUrl:(NSString *)url
+           body:(NSMutableDictionary *)body
+           head:(NSMutableDictionary *)head
+        success:(SuccessBlock)success
+        failure:(FailureBlock)failure {
     
     NSURL *updateUrl         = [NSURL URLWithString:url];
     NSMutableURLRequest *req = [[NSMutableURLRequest alloc] initWithURL:updateUrl];

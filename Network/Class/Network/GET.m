@@ -12,9 +12,9 @@
 
 @implementation GET
 
-+ (void) withUrl:(NSString *)url
-         success:(SuccessBlock)success
-         failure:(FailureBlock)failure {
++ (void)withUrl:(NSString *)url
+        success:(SuccessBlock)success
+        failure:(FailureBlock)failure {
     [GET withUrl:url
             head:nil
          success:^(id result) {
@@ -25,10 +25,10 @@
          }];
 }
 
-+ (void) withUrl:(NSString *)url
-            head:(NSMutableDictionary *)head
-         success:(SuccessBlock)success
-         failure:(FailureBlock)failure {
++ (void)withUrl:(NSString *)url
+           head:(NSMutableDictionary *)head
+        success:(SuccessBlock)success
+        failure:(FailureBlock)failure {
     NSURL *updateUrl         = [NSURL URLWithString:url];
     NSMutableURLRequest *req = [[NSMutableURLRequest alloc] initWithURL:updateUrl];
     /**

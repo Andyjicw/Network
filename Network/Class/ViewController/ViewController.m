@@ -8,7 +8,7 @@
 //  Copyright © 2016年 andy. All rights reserved.
 //
 
-#define TEST_URL @"http://www.chedan.org:11111/NetworkDemo.php"
+#define TEST_URL @"http://220.231.200.166:8888/NetworkDemo.php"
 
 #import "ViewController.h"
 
@@ -31,7 +31,7 @@
 
 #pragma mark - testPOST
 
-- (void) testPOST {
+- (void)testPOST {
     NSMutableDictionary *body = [[NSMutableDictionary alloc] init];
     [body setObject:@"1" forKey:@"page"];
     [POST withUrl:TEST_URL
@@ -46,7 +46,7 @@
 
 #pragma mark - testGET
 
-- (void) testGET {
+- (void)testGET {
     [GET withUrl:TEST_URL
          success:^(id result) {
              // success to do

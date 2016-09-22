@@ -23,9 +23,9 @@ typedef void(^FailureBlock)(NSError *error);
  *  @param success 成功回调
  *  @param failure 失败回调
  */
-+ (void) withUrl:(NSString *)url
-         success:(SuccessBlock)success
-         failure:(FailureBlock)failure;
++ (void)withUrl:(NSString *)url
+        success:(SuccessBlock)success
+        failure:(FailureBlock)failure;
 /**
  *  GET请求（自定义请求头）
  *
@@ -34,8 +34,8 @@ typedef void(^FailureBlock)(NSError *error);
  *  @param success 成功回调
  *  @param failure 失败回调
  */
-+ (void) withUrl:(NSString *)url
-            head:(NSMutableDictionary *)head
-         success:(SuccessBlock)success
-         failure:(FailureBlock)failure;
++ (void)withUrl:(NSString *)url
+           head:(NSMutableDictionary *)head
+        success:(SuccessBlock)success
+        failure:(FailureBlock)failure;
 @end
