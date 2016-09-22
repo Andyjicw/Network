@@ -11,9 +11,7 @@
 #define TEST_URL @"http://220.231.200.166:8888/NetworkDemo.php"
 
 #import "ViewController.h"
-
-#import "POST.h"
-#import "GET.h"
+#import "ANNetworkMessage.h"
 
 @interface ViewController ()
 
@@ -25,8 +23,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self testPOST];
-    [self testGET];
+//    [self testPOST];
+//    [self testGET];
+//    [self testPUT];
+    [self testHEAD];
 }
 
 #pragma mark - testPOST
@@ -54,6 +54,34 @@
          failure:^(NSError *error) {
              // failure to do
          }];
+}
+
+#pragma mark - testPUT
+
+- (void)testPUT {
+    NSMutableDictionary *body = [[NSMutableDictionary alloc] init];
+    [body setObject:@"1" forKey:@"page"];
+    [PUT withUrl:TEST_URL
+            body:body
+            head:nil
+         success:^(id result) {
+             // success to do
+         }
+         failure:^(NSError *error) {
+             // failure to do
+         }];
+}
+
+#pragma mark - testHEAD
+
+- (void)testHEAD {
+    [HEAD withUrl:TEST_URL
+          success:^(id result) {
+              // success to do (result is header)
+          }
+          failure:^(NSError *error) {
+              // failure to do
+          }];
 }
 
 @end

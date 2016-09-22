@@ -7,28 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A182A3FF1D19372300F25DD6 /* PUT.m in Sources */ = {isa = PBXBuildFile; fileRef = A182A3FE1D19372300F25DD6 /* PUT.m */; };
 		A1B306BD1D07BB0B00DE6747 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B306B61D07BB0B00DE6747 /* ViewController.m */; };
-		A1B306C41D07BC4000DE6747 /* POST.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B306C31D07BC4000DE6747 /* POST.m */; };
-		A1B306C71D07C00500DE6747 /* GET.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B306C61D07C00500DE6747 /* GET.m */; };
 		A1B306D51D07CD6500DE6747 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B306CC1D07CD6500DE6747 /* AppDelegate.m */; };
 		A1B306D61D07CD6500DE6747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B306CD1D07CD6500DE6747 /* Assets.xcassets */; };
 		A1B306D71D07CD6500DE6747 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B306CE1D07CD6500DE6747 /* LaunchScreen.storyboard */; };
 		A1B306D81D07CD6500DE6747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B306D01D07CD6500DE6747 /* Main.storyboard */; };
 		A1B306DA1D07CD6500DE6747 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B306D31D07CD6500DE6747 /* main.m */; };
 		A1B306DB1D07CD6500DE6747 /* NetworkDemo.php in Resources */ = {isa = PBXBuildFile; fileRef = A1B306D41D07CD6500DE6747 /* NetworkDemo.php */; };
+		A1E994AA1D93C6D20020C414 /* ANNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E994A91D93C6D20020C414 /* ANNetworking.m */; };
+		A1E994AD1D93C8F40020C414 /* ANNetworkMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E994AC1D93C8F40020C414 /* ANNetworkMessage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A182A3FD1D19372300F25DD6 /* PUT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUT.h; sourceTree = "<group>"; };
-		A182A3FE1D19372300F25DD6 /* PUT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUT.m; sourceTree = "<group>"; };
 		A1B3068E1D07BA6200DE6747 /* Network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Network.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B306B51D07BB0B00DE6747 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A1B306B61D07BB0B00DE6747 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A1B306C21D07BC4000DE6747 /* POST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POST.h; sourceTree = "<group>"; };
-		A1B306C31D07BC4000DE6747 /* POST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POST.m; sourceTree = "<group>"; };
-		A1B306C51D07C00500DE6747 /* GET.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GET.h; sourceTree = "<group>"; };
-		A1B306C61D07C00500DE6747 /* GET.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GET.m; sourceTree = "<group>"; };
 		A1B306CB1D07CD6500DE6747 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1B306CC1D07CD6500DE6747 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A1B306CD1D07CD6500DE6747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,6 +30,10 @@
 		A1B306D21D07CD6500DE6747 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1B306D31D07CD6500DE6747 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A1B306D41D07CD6500DE6747 /* NetworkDemo.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = NetworkDemo.php; sourceTree = "<group>"; };
+		A1E994A81D93C6D20020C414 /* ANNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANNetworking.h; sourceTree = "<group>"; };
+		A1E994A91D93C6D20020C414 /* ANNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANNetworking.m; sourceTree = "<group>"; };
+		A1E994AB1D93C8F40020C414 /* ANNetworkMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANNetworkMessage.h; sourceTree = "<group>"; };
+		A1E994AC1D93C8F40020C414 /* ANNetworkMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANNetworkMessage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,12 +84,10 @@
 		A1B306A91D07BB0B00DE6747 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				A1B306C21D07BC4000DE6747 /* POST.h */,
-				A1B306C31D07BC4000DE6747 /* POST.m */,
-				A1B306C51D07C00500DE6747 /* GET.h */,
-				A1B306C61D07C00500DE6747 /* GET.m */,
-				A182A3FD1D19372300F25DD6 /* PUT.h */,
-				A182A3FE1D19372300F25DD6 /* PUT.m */,
+				A1E994A81D93C6D20020C414 /* ANNetworking.h */,
+				A1E994A91D93C6D20020C414 /* ANNetworking.m */,
+				A1E994AB1D93C8F40020C414 /* ANNetworkMessage.h */,
+				A1E994AC1D93C8F40020C414 /* ANNetworkMessage.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -192,12 +187,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1E994AA1D93C6D20020C414 /* ANNetworking.m in Sources */,
 				A1B306DA1D07CD6500DE6747 /* main.m in Sources */,
 				A1B306D51D07CD6500DE6747 /* AppDelegate.m in Sources */,
-				A1B306C71D07C00500DE6747 /* GET.m in Sources */,
-				A182A3FF1D19372300F25DD6 /* PUT.m in Sources */,
+				A1E994AD1D93C8F40020C414 /* ANNetworkMessage.m in Sources */,
 				A1B306BD1D07BB0B00DE6747 /* ViewController.m in Sources */,
-				A1B306C41D07BC4000DE6747 /* POST.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
