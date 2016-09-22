@@ -3,14 +3,14 @@
 记得star一下哦
 
 基于原生的NSURLSessionDataTask封装的网络请求组件 
-采用block方式回调数据 简单封装了 POST和GET请求(HEAD, TRACE, PUT, DELETE, OPTIONS, CONNECT等 暂未实现)
+采用block方式回调数据 简单封装了 POST、GET、HEAD、PUT请求(TRACE, DELETE, OPTIONS, CONNECT等 暂未实现)
 
 ## 使用
 
 ###POST
 
 ```
-- (void) testPOST {
+- (void)testPOST {
     NSMutableDictionary *body = [[NSMutableDictionary alloc] init];
     [body setObject:@"1" forKey:@"page"];
     [POST withUrl:TEST_URL
@@ -28,7 +28,7 @@
 ###GET
 
 ```
-- (void) testGET {
+- (void)testGET {
     [GET withUrl:TEST_URL
         success:^(id result) {
             // success to do
@@ -44,7 +44,7 @@
 
 
 #TODO
-(HEAD, TRACE, PUT, DELETE, OPTIONS, CONNECT等 暂未实现)
+(TRACE, DELETE, OPTIONS, CONNECT等 暂未实现)
 
 =======================
 
