@@ -23,9 +23,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    [self testPOST];
-//    [self testGET];
-//    [self testPUT];
+    [self testPOST];
+    [self testGET];
+    [self testPUT];
     [self testHEAD];
 }
 
@@ -37,6 +37,7 @@
     [POST withUrl:TEST_URL
              body:body
           success:^(id result) {
+              NSLog(@" POST : %@", result);
               // success to do
           }
           failure:^(NSError *error) {
@@ -49,6 +50,7 @@
 - (void)testGET {
     [GET withUrl:TEST_URL
          success:^(id result) {
+             NSLog(@" GET : %@", result);
              // success to do
          }
          failure:^(NSError *error) {
@@ -65,6 +67,7 @@
             body:body
             head:nil
          success:^(id result) {
+             NSLog(@" PUT : %@", result);
              // success to do
          }
          failure:^(NSError *error) {
@@ -77,6 +80,7 @@
 - (void)testHEAD {
     [HEAD withUrl:TEST_URL
           success:^(id result) {
+              NSLog(@" HEAD : %@", result);
               // success to do (result is header)
           }
           failure:^(NSError *error) {

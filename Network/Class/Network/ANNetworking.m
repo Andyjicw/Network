@@ -63,9 +63,6 @@
         }
         if (success) {
             NSString * newStr = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-            NSLog(@" 请求的URL : ==>%@<==\n", url);
-            NSLog(@" 请求参数(JOSN) : ==>%@<==\n", str);
-            NSLog(@" 响应字符串(JOSN) : ==>%@<==\n", newStr);
             if (method == ANHEAD) {
                 if ([(NSHTTPURLResponse *)response allHeaderFields]) {
                     success([(NSHTTPURLResponse *)response allHeaderFields]);
@@ -78,6 +75,9 @@
                                                                  options:NSJSONReadingMutableContainers
                                                                    error:&jsonError];
             if (jsonError) {
+                NSLog(@" 请求的URL : ==>%@<==\n", url);
+                NSLog(@" 请求参数(JOSN) : ==>%@<==\n", str);
+                NSLog(@" 响应字符串(JOSN) : ==>%@<==\n", newStr);
                 NSLog(@" JSON 解析失败ERROR : ==>%@<==\n", jsonError);
                 failure(jsonError);
                 return;
